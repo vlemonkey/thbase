@@ -22,7 +22,7 @@ public class FirstServlet extends HttpServlet {
 		throws ServletException, IOException{
 		LOG.info("hello");
 		PrintWriter out = response.getWriter();
-		out.print("first servlet");
+		out.print("first servlet, hello");
 		out.flush();
 		out.close();
 	}
